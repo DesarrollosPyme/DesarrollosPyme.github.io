@@ -1,0 +1,174 @@
+p{
+    font-size: 130%
+}
+.navbar-brand{
+    border-bottom: 4px solid #318ba2 
+}
+#brandMenu{
+    visibility: hidden;
+}
+.navbar-light{
+    background-color: #fff;
+    color:#303030;
+    padding: 20px;
+}
+.nav-link{
+    margin-left: 10px
+}
+.nav-link:hover{
+    
+    color: #fff;
+    font-weight: bold;
+    border-radius:10px;
+    box-shadow: 0px 3px 15px #303030
+}
+#trabajosRealizados{
+    border:2px solid #318ba2 ;
+    color: #318ba2 ;
+    border-radius:10px;
+    box-shadow: 0px 3px 15px #d9d9d9;
+    font-size: 90%;
+    padding: 5px
+}
+#trabajosRealizados:hover{
+    background-color: #318ba2 ;
+    color:#fff;
+    font-weight: bold;
+    box-shadow: 0px 3px 15px #303030
+}
+
+.form-submit{
+   cursor: pointer;
+    border:2px solid #318ba2 ;
+    color: #fff ;
+    background-color: #318ba2
+}
+.form-submit:hover{
+    box-shadow: 0px 3px 15px #303030
+}
+
+.form{
+    width: 80%;
+    float: right;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 3px 15px #303030
+  
+}
+#coti{
+    visibility: hidden;
+}
+
+.form-image{
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+#secondColor{
+    background-color: #f9f9f9
+}
+#tercerColor{
+    background-color: #ffbd5967
+}
+#cuartoColor{
+    background-color: #f9f9f9
+}
+#quintoColor{
+    background-color: #303030;
+    color:#f9f9f9
+}
+#quintoColor a{
+   cursor: pointer;
+    color:#f9f9f9
+}
+#socialFooter{
+    background-color: #318ba2;
+    color: #f9f9f9;
+    padding: 10px 0px
+}
+.form-icon{
+    padding: 5px
+}
+span.form-icon {
+    padding: 20px 0px
+}
+
+i.form-icon{
+   color:#318ba2;
+   padding: 20px
+   
+}
+.icon-max i{
+    font-size: 30px;
+    cursor: pointer;
+    padding:10px ;
+}
+.icon-max i:hover{
+    box-shadow: 0px 3px 15px #303030
+}
+.triple-icon{
+    font-size: 50px;
+     color:#318ba2
+}
+.triple-p{
+    padding: 10px;
+    font-size: 100%
+}
+.super{
+    padding: 40px 0px;
+}
+
+.clients-img{
+    width:80%
+}
+.clients-txt h3{
+    color: #318ba2
+}
+.whatsapp {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 999;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid green;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+    font-size: 40px;
+    text-decoration: none;
+    color: green;
+    background-color: #FFF;
+    -webkit-box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 5px -1px rgba;
+}
+@media (max-width:760px){
+    .form{
+        float: none;
+        width: 100%;
+        display: none;
+    }
+    .clients-txt{
+        width:80%;
+        padding: 10px
+    }
+    #coti{
+        visibility: visible;
+    }
+   
+
+}
+@media (max-width:1000px){
+    
+    #brandMenu{
+        visibility: visible
+    }
+    #brand{
+    display: none
+    }
+    #cuartoColor{
+        text-align: center
+    }
+}
+
