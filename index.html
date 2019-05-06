@@ -80,7 +80,7 @@
             </div>
          </nav>
               <div id="secondColor">
-              <div class="container">
+              <div class="container " id="formAnswer">
                 <div class="row form-image">
                     <div class="col-md-6">
                         <h1>Nos encargamos de crear tu pagina web</h1>
@@ -91,7 +91,7 @@
                         </div>
                         
                     </div>
-                    <div id="formAnswer" class="col-md-6">
+                    <div  class="col-md-6">
                         <div id="cotizar-form" class="form">
                         <form action="https://submit-form.com/gsvqtsHaXBErsUijn1NXz" target="_self">
                             <div class="form-group">
@@ -308,7 +308,7 @@
     <script src="index.js"></script>
     <script>
     if(window.location.search=="?formSubmition=1"){
-        $("#formAnswer").html("<h1>Gracias!</h1><p>Te contactamos a la brevedad</p>")
+        $("#formAnswer").prepend("<div class='row text-center '><div class='col-12'><h1>Gracias!</h1><p>Te contactamos a la brevedad</p></div></div>")
     }</script>
 </body>
 </html>
