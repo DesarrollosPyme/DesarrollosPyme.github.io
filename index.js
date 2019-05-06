@@ -2,6 +2,9 @@ $('.carousel').carousel({
   interval: 7000
 })
 var array=[{id:"#ce",url:"#pepe"},
+{id:"#nfc",url:"https://www.nfcabogados.com/"},
+{id:"#ulau",url:"https://www.ulauindumentaria.com/"},
+{id:"#mb",url:"https://mariabonita.pazencorrientes.com/"},
 {id:"#bfe",url:"https://www.felizemprendiendo.com"},
 {id:"#trabajosRealizados",url:"https://demos.desarrollospyme.com/pw-trabajos.html"},
 {id:"#nos-l",url:"#nos"},

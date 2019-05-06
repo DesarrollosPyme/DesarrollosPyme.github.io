@@ -121,7 +121,8 @@ i.form-icon{
     width:80%
 }
 .clients-txt h3{
-    color: #318ba2
+    color: #318ba2;
+    cursor: pointer;
 }
 .whatsapp {
     position: fixed;
