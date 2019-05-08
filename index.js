@@ -14,6 +14,7 @@ var array=[{id:"#ce",url:"#pepe"},
 ,{id:"#pwi",url:"https://www.desarrollospyme.com/paginas-web#Paginas-institucionales"},
 {id:"#pw24",url:"https://www.desarrollospyme.com/paginas-web#Paginas-24hs"},
 {id:"#gM",url:"https://www.desarrollospyme.com/paginas-web#GoogleMaps"},
+{id:"#gM2",url:"https://www.desarrollospyme.com/paginas-web#GoogleMaps"},
 {id:"#price",url:"https://www.desarrollospyme.com/paginas-web#Precios"}]
 
 array.forEach(element => {
