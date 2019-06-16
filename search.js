@@ -1,10 +1,10 @@
 
 var cambios={
     trabajosRealizados:{
-        negocio:"Proyectos realizados",
-        servicio:"Experiencia en Servicios",
-        electricista:"Oficios Realizados",
-        emprendimiento:"Paginas Realizadas"
+        negocio:"Todos los diseños",
+        servicio:"Diseño de Servicios",
+        electricista:"Trabajos Realizados",
+        emprendimiento:"Diseños Realizados"
     },
     title:{
         negocio:"La pagina web de tu negocio",
@@ -45,13 +45,13 @@ var cambios={
     titleSistem:{
         negocio:"Tener el control nunca fue tan facil",
         servicio:"Actualiza tu contenido gratis",
-        electricista:"Podes hacer cambios sin pagar",
-        emprendimiento:"Editas sin pagar"
+        electricista:"Sin poner un solo peso!",
+        emprendimiento:"Vos tenes el control!"
     },
     title24:{
         negocio:"Tu negocio en la web en 24hs",
         servicio:"Lo mas rapido, online en 24hs",
-        electricista:"¿Una web en 24hs?",
+        electricista:"¿Queres tu web en 24hs?",
         emprendimiento:"Tu proyecto online en 24hs"
     },
     p24:{
